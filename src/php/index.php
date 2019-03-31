@@ -4,7 +4,7 @@ n print_log(){
         'hoge' => "foo",
         'var'  => 2,
     ];
-    printf("Hello World!\hogehoge");
+    printf("Hello World!\nhogehoge");
     printf($temp_array);
 }
 
@@ -13,7 +13,7 @@ function var_dump_log(){
         'hoge' => "foo",
         'var'  => 2,
     ];
-    var_dump("Hello World!\hogehoge");
+    var_dump("Hello World!\nhogehoge");
     var_dump($temp_array);
 }
 
